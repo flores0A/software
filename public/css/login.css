@@ -1,0 +1,46 @@
+/* public/css/login.css */
+#app {
+    background-color: #f0f0f0; /* Fondo para el área con id="app" */
+    padding: 20px; /* Espaciado interno */
+}
+
+.navbar {
+    background-color: #3490dc; /* Color de fondo de la barra de navegación */
+    color: white; /* Color del texto en la barra de navegación */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    min-width: 120px;
+}
+
+.dropdown-menu a {
+    color: #212529; /* Color del texto del menú desplegable */
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f8f9fa; /* Color de fondo al pasar el ratón */
+}
+
+.py-4 {
+    /* Espaciado en la parte superior e inferior del contenido principal */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
